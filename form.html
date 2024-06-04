@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se Empório Padaria</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <!-- Aqui chamamos nossa section para adicionar informações (form) -->
+    <main> 
+        <section class="form-container">
+            <!-- Abrimos uma div para que possamos destacar o formulário -->
+            <div class="container">
+                <!-- abrimos nossa tag de formulário -->
+                <form action="">
+                    <h1>
+                        Cadastre-se e tenha facilidades e descontos exclusivo!
+                    </h1>
+                    <p>
+                        Preencha o formukário abaixo e entraremos em contato com você.
+                    </p>
+
+                    <!-- Aqui criamos uma caixa/div para inserirmos label e input -->
+                    <div class="input-single">
+
+                        <input type="text" class="input" id="nome" name="nome" autocomplete="off" required>
+                        <label for="nome">NOME</label>
+                    </div>
+
+                    <div class="input-single">
+                        <input type="text" class="input" id="sobrenome" name="sobrenome" autocomplete="off" required>
+                        <label for="sobrenome">SOBRENOME</label>
+                    </div>
+
+                    <div class="input-single">
+                        <input type="number" class="input" id="telefone" name="telefone" autocomplete="off" required>
+                        <label for="telefone">TELEFONE</label>
+                    </div>
+
+                    <div class="btn">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    
+
+</body>
+</html>
